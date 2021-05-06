@@ -107,10 +107,10 @@
   "cpu": {
     "cpu": {
       "updated_at": "2021-02-11 18:45:53+00:00",
-      "system_percent": 0.4,
+      "system_percent": 0.9,
       "nice_percent": 0.0,
-      "idle_percent": 72.2,
-      "user_percent": 26.3
+      "idle_percent": 65.2,
+      "user_percent": 15.3
     }
   },
   "sensors": {
