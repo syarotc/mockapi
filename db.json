@@ -1,85 +1,97 @@
 {
   "cpu": {
-    "idle_percent": 83.0,
-    "nice_percent": 0.0,
-    "system_percent": 3.3,
-    "updated_at": "2021-05-16 19:40:01+00:00",
-    "user_percent": 13.4
+    "cpu": {
+      "idle_percent": 83.0,
+      "nice_percent": 0.0,
+      "system_percent": 3.3,
+      "updated_at": "2021-05-16 19:40:01+00:00",
+      "user_percent": 13.4
+    }
   },
   "disk": {
-    "degraded_raid_volume": {
-      "error": "",
-      "output": "",
-      "status": "SKIP"
-    },
-    "disk_raid": {
-      "error": "",
-      "output": "",
-      "status": "SKIP"
-    },
-    "disk_utilization": {
-      "free_bytes": "136122630144L",
-      "total_bytes": "156067389440L",
-      "usage_percent": 12.78,
-      "used_bytes": "19944759296L"
-    },
-    "raid_disks_missing": {
-      "error": "",
-      "output": "",
-      "status": "SKIP"
-    },
-    "updated_at": "2021-05-16 19:40:00+00:00"
+    "disk": {
+      "degraded_raid_volume": {
+        "error": "",
+        "output": "",
+        "status": "SKIP"
+      },
+      "disk_raid": {
+        "error": "",
+        "output": "",
+        "status": "SKIP"
+      },
+      "disk_utilization": {
+        "free_bytes": "136122630144L",
+        "total_bytes": "156067389440L",
+        "usage_percent": 12.78,
+        "used_bytes": "19944759296L"
+      },
+      "raid_disks_missing": {
+        "error": "",
+        "output": "",
+        "status": "SKIP"
+      },
+      "updated_at": "2021-05-16 19:40:00+00:00"
+    }
   },
   "network": {
-    "interfaces": {
-      "brain": {},
-      "sensors": {
-        "71v2kesf": {
-          "eth0": {
-            "link": "UP"
+    "network": {
+      "interfaces": {
+        "brain": {
+        },
+        "sensors": {
+          "71v2kesf": {
+            "eth0": {
+              "link": "UP"
+            }
           }
         }
-      }
-    },
-    "traffic": {
-      "brain": {
-        "aggregated_peak_traffic_mbps": 0,
-        "interface_peak_traffic": {}
       },
-      "sensors": {
-        "Vec2da2859afae39958eaf581fa07c4cf": {
-          "aggregated_peak_traffic_mbps": 1,
+      "traffic": {
+        "brain": {
+          "aggregated_peak_traffic_mbps": 0,
           "interface_peak_traffic": {
-            "eth0": {
-              "peak_traffic_mbps": 1
+          }
+        },
+        "sensors": {
+          "Vec2da2859afae39958eaf581fa07c4cf": {
+            "aggregated_peak_traffic_mbps": 1,
+            "interface_peak_traffic": {
+              "eth0": {
+                "peak_traffic_mbps": 1
+              }
             }
           }
         }
       }
     }
   },
-  "sensors": [
-    {
-      "ip_address": "10.253.255.152",
-      "last_seen": "2021-05-16T19:36:14Z",
-      "location": "None",
-      "luid": "71v2kesf",
-      "name": "Vec2da2859afae39958eaf581fa07c4cf",
-      "product_name": "vSensor",
-      "serial_number": "Vec2da2859afae39958eaf581fa07c4cf",
-      "status": "paired",
-      "version": "6.5.1-5-28"
-    }
-  ],
+  "sensors": {
+    "sensors": [
+      {
+        "ip_address": "10.253.255.152",
+        "last_seen": "2021-05-16T19:36:14Z",
+        "location": "None",
+        "luid": "71v2kesf",
+        "name": "Vec2da2859afae39958eaf581fa07c4cf",
+        "product_name": "vSensor",
+        "serial_number": "Vec2da2859afae39958eaf581fa07c4cf",
+        "status": "paired",
+        "version": "6.5.1-5-28"
+      }
+    ]
+  },
   "system": {
-    "serial_number": "VHEec2e4e8f78ff3acabe460e268cbbd800",
-    "updated_at": "2021-05-16 19:40:01+00:00",
-    "uptime": "32 days, 5 hours, 3 minutes",
-    "version": {
-      "last_update": "Thu Mar 11 19:43:21 2021",
-      "mode": "brain",
-      "model": "VHE",
-      "vectra_version": "6.5.1-5-28"
+    "system": {
+      "serial_number": "VHEec2e4e8f78ff3acabe460e268cbbd800",
+      "updated_at": "2021-05-16 19:40:01+00:00",
+      "uptime": "32 days, 5 hours, 3 minutes",
+      "version": {
+        "last_update": "Thu Mar 11 19:43:21 2021",
+        "mode": "brain",
+        "model": "VHE",
+        "vectra_version": "6.5.1-5-28"
+      }
     }
   }
 }
