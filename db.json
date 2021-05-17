@@ -1,156 +1,85 @@
 {
-  "system": {
-    "system": {
-      "serial_number": "A21000000000248",
-      "updated_at": "2021-02-11 18:40:47+00:00",
-      "uptime": "91 days, 56 minutes",
-      "version": {
-        "last_update": "Mon Feb  1 21:44:27 2021",
-        "model": "X29",
-        "vectra_version": "6.4.1-0-15",
-        "mode": "mixed"
-      }
-    }
-  },
-  "network": {
-    "network": {
-      "vlans": {
-        "count": 1,
-        "vlan_ids": [
-          "199"
-        ]
-      },
-      "interfaces": {
-        "sensors": {
-          "s997a3i5": {
-            "eth0": {
-              "link": "UP"
-            }
-          },
-          "w80avjcq": {
-            "eth0": {
-              "link": "UP"
-            }
-          },
-          "v5o64ddw": {
-            "eth0": {
-              "link": "UP"
-            }
-          }
-        },
-        "brain": {
-          "eth1": {
-            "link": "DOWN",
-            "link_stable": true
-          },
-          "eth3": {
-            "link": "DOWN",
-            "link_stable": true
-          },
-          "eth2": {
-            "link": "DOWN",
-            "link_stable": true
-          },
-          "eth0": {
-            "link": "DOWN",
-            "link_stable": true
-          }
-        }
-      },
-      "traffic": {
-        "sensors": {
-          "vSensorCPG1-2-29w": {
-            "aggregated_peak_traffic_mbps": 0,
-            "interface_peak_traffic": {
-              "eth0": {
-                "peak_traffic_mbps": 0
-              }
-            }
-          },
-          "vSensorCPG1-2-37w": {
-            "aggregated_peak_traffic_mbps": 2,
-            "interface_peak_traffic": {
-              "eth0": {
-                "peak_traffic_mbps": 2
-              }
-            }
-          },
-          "vSensor-sandy-w": {
-            "aggregated_peak_traffic_mbps": 3,
-            "interface_peak_traffic": {
-              "eth0": {
-                "peak_traffic_mbps": 3
-              }
-            }
-          }
-        },
-        "brain": {
-          "aggregated_peak_traffic_mbps": 0,
-          "interface_peak_traffic": {
-            "eth1": {
-              "peak_traffic_mbps": 0
-            },
-            "eth3": {
-              "peak_traffic_mbps": 0
-            },
-            "eth2": {
-              "peak_traffic_mbps": 0
-            },
-            "eth0": {
-              "peak_traffic_mbps": 0
-            }
-          }
-        }
-      }
-    }
-  },
   "cpu": {
-    "cpu": {
-      "updated_at": "2021-02-11 18:45:53+00:00",
-      "system_percent": 0.9,
-      "nice_percent": 0.0,
-      "idle_percent": 65.2,
-      "user_percent": 15.3
-    }
-  },
-  "sensors": {
-    "sensors": [
-      {
-        "status": "paired",
-        "name": "Sensor APP Team",
-        "serial_number": "V422c32562bb80439756730fc8fb56ac7",
-        "package_version": "4.9.0-13-31",
-        "last_seen": "2019-11-26T16:16:39Z",
-        "ip_address": "192.168.5.8",
-        "luid": "mnyr567p",
-        "location": "Austin"
-      }
-    ]
+    "idle_percent": 83.0,
+    "nice_percent": 0.0,
+    "system_percent": 3.3,
+    "updated_at": "2021-05-16 19:40:01+00:00",
+    "user_percent": 13.4
   },
   "disk": {
-    "disk": {
-      "disk_raid": {
-        "status": "OK",
-        "output": "",
-        "error": ""
-      },
-      "updated_at": "2021-02-11 18:45:52+00:00",
-      "raid_disks_missing": {
-        "status": "OK",
-        "output": {},
-        "error": ""
-      },
-      "degraded_raid_volume": {
-        "status": "OK",
-        "output": [],
-        "error": ""
-      },
-      "disk_utilization": {
-        "free_bytes": 49541898240,
-        "total_bytes": 67507056640,
-        "used_bytes": 17965158400,
-        "usage_percent": 26.61
+    "degraded_raid_volume": {
+      "error": "",
+      "output": "",
+      "status": "SKIP"
+    },
+    "disk_raid": {
+      "error": "",
+      "output": "",
+      "status": "SKIP"
+    },
+    "disk_utilization": {
+      "free_bytes": "136122630144L",
+      "total_bytes": "156067389440L",
+      "usage_percent": 12.78,
+      "used_bytes": "19944759296L"
+    },
+    "raid_disks_missing": {
+      "error": "",
+      "output": "",
+      "status": "SKIP"
+    },
+    "updated_at": "2021-05-16 19:40:00+00:00"
+  },
+  "network": {
+    "interfaces": {
+      "brain": {},
+      "sensors": {
+        "71v2kesf": {
+          "eth0": {
+            "link": "UP"
+          }
+        }
       }
+    },
+    "traffic": {
+      "brain": {
+        "aggregated_peak_traffic_mbps": 0,
+        "interface_peak_traffic": {}
+      },
+      "sensors": {
+        "Vec2da2859afae39958eaf581fa07c4cf": {
+          "aggregated_peak_traffic_mbps": 1,
+          "interface_peak_traffic": {
+            "eth0": {
+              "peak_traffic_mbps": 1
+            }
+          }
+        }
+      }
+    }
+  },
+  "sensors": [
+    {
+      "ip_address": "10.253.255.152",
+      "last_seen": "2021-05-16T19:36:14Z",
+      "location": "None",
+      "luid": "71v2kesf",
+      "name": "Vec2da2859afae39958eaf581fa07c4cf",
+      "product_name": "vSensor",
+      "serial_number": "Vec2da2859afae39958eaf581fa07c4cf",
+      "status": "paired",
+      "version": "6.5.1-5-28"
+    }
+  ],
+  "system": {
+    "serial_number": "VHEec2e4e8f78ff3acabe460e268cbbd800",
+    "updated_at": "2021-05-16 19:40:01+00:00",
+    "uptime": "32 days, 5 hours, 3 minutes",
+    "version": {
+      "last_update": "Thu Mar 11 19:43:21 2021",
+      "mode": "brain",
+      "model": "VHE",
+      "vectra_version": "6.5.1-5-28"
     }
   }
 }
