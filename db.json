@@ -138,5 +138,20 @@
         "vectra_version": "6.5.1-5-28"
       }
     }
+  },
+  "sensors": {
+    "sensors": [
+      {
+        "ip_address": "10.253.255.152",
+        "last_seen": "2021-05-16T19:36:14Z",
+        "location": "None",
+        "luid": "71v2kesf",
+        "name": "Vec2da2859afae39958eaf581fa07c4cf",
+        "product_name": "vSensor",
+        "serial_number": "Vec2da2859afae39958eaf581fa07c4cf",
+        "status": "paired",
+        "version": "6.5.1-5-28"
+      }
+    ]
   }
 }
