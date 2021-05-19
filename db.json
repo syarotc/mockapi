@@ -21,10 +21,10 @@
         "status": "SKIP"
       },
       "disk_utilization": {
-        "free_bytes": "136122630144L",
-        "total_bytes": "156067389440L",
+        "free_bytes": 136122630144L,
+        "total_bytes": 156067389440L,
         "usage_percent": 12.78,
-        "used_bytes": "19944759296L"
+        "used_bytes": 19944759296L
       },
       "raid_disks_missing": {
         "error": "",
