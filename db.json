@@ -36,50 +36,95 @@
   },
   "network": {
     "network": {
+      "vlans": {
+        "count": 1,
+        "vlan_ids": [
+          "199"
+        ]
+      },
       "interfaces": {
-        "brain": {
-        },
         "sensors": {
-          "71v2kesf": {
+          "s997a3i5": {
+            "eth0": {
+              "link": "UP"
+            }
+          },
+          "w80avjcq": {
+            "eth0": {
+              "link": "UP"
+            }
+          },
+          "v5o64ddw": {
             "eth0": {
               "link": "UP"
             }
           }
+        },
+        "brain": {
+          "eth1": {
+            "link": "DOWN",
+            "link_stable": true
+          },
+          "eth3": {
+            "link": "DOWN",
+            "link_stable": true
+          },
+          "eth2": {
+            "link": "DOWN",
+            "link_stable": true
+          },
+          "eth0": {
+            "link": "DOWN",
+            "link_stable": true
+          }
         }
       },
       "traffic": {
+        "sensors": {
+          "vSensorCPG1-2-29w": {
+            "aggregated_peak_traffic_mbps": 0,
+            "interface_peak_traffic": {
+              "eth0": {
+                "peak_traffic_mbps": 0
+              }
+            }
+          },
+          "vSensorCPG1-2-37w": {
+            "aggregated_peak_traffic_mbps": 2,
+            "interface_peak_traffic": {
+              "eth0": {
+                "peak_traffic_mbps": 2
+              }
+            }
+          },
+          "vSensor-sandy-w": {
+            "aggregated_peak_traffic_mbps": 3,
+            "interface_peak_traffic": {
+              "eth0": {
+                "peak_traffic_mbps": 3
+              }
+            }
+          }
+        },
         "brain": {
           "aggregated_peak_traffic_mbps": 0,
           "interface_peak_traffic": {
-          }
-        },
-        "sensors": {
-          "Vec2da2859afae39958eaf581fa07c4cf": {
-            "aggregated_peak_traffic_mbps": 1,
-            "interface_peak_traffic": {
-              "eth0": {
-                "peak_traffic_mbps": 1
-              }
+            "eth1": {
+              "peak_traffic_mbps": 0
+            },
+            "eth3": {
+              "peak_traffic_mbps": 0
+            },
+            "eth2": {
+              "peak_traffic_mbps": 0
+            },
+            "eth0": {
+              "peak_traffic_mbps": 0
             }
           }
         }
       }
     }
-  },
-  "sensors": {
-    "sensors": [
-      {
-        "ip_address": "10.253.255.152",
-        "last_seen": "2021-05-16T19:36:14Z",
-        "location": "None",
-        "luid": "71v2kesf",
-        "name": "Vec2da2859afae39958eaf581fa07c4cf",
-        "product_name": "vSensor",
-        "serial_number": "Vec2da2859afae39958eaf581fa07c4cf",
-        "status": "paired",
-        "version": "6.5.1-5-28"
-      }
-    ]
   },
   "system": {
     "system": {
