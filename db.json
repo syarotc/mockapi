@@ -81,7 +81,7 @@
       },
       "traffic": {
         "sensors": {
-          "vSensorCPG1-2-29w": {
+          "Vec2da2859afae39958eaf581fa07c4cf": {
             "aggregated_peak_traffic_mbps": 0,
             "interface_peak_traffic": {
               "eth0": {
