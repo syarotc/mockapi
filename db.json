@@ -82,44 +82,44 @@
       "traffic": {
         "sensors": {
           "Vec2da2859afae39958eaf581fa07c4cf": {
-            "aggregated_peak_traffic_mbps": 0,
+            "aggregated_peak_traffic_mbps": 10,
             "interface_peak_traffic": {
               "eth0": {
-                "peak_traffic_mbps": 0
+                "peak_traffic_mbps": 10
               }
             }
           },
           "vSensorCPG1-2-37w": {
-            "aggregated_peak_traffic_mbps": 2,
+            "aggregated_peak_traffic_mbps": 20,
             "interface_peak_traffic": {
               "eth0": {
-                "peak_traffic_mbps": 2
+                "peak_traffic_mbps": 20
               }
             }
           },
           "vSensor-sandy-w": {
-            "aggregated_peak_traffic_mbps": 3,
+            "aggregated_peak_traffic_mbps": 30,
             "interface_peak_traffic": {
               "eth0": {
-                "peak_traffic_mbps": 3
+                "peak_traffic_mbps": 30
               }
             }
           }
         },
         "brain": {
-          "aggregated_peak_traffic_mbps": 0,
+          "aggregated_peak_traffic_mbps": 100,
           "interface_peak_traffic": {
             "eth1": {
-              "peak_traffic_mbps": 0
+              "peak_traffic_mbps": 10
             },
             "eth3": {
-              "peak_traffic_mbps": 0
+              "peak_traffic_mbps": 20
             },
             "eth2": {
-              "peak_traffic_mbps": 0
+              "peak_traffic_mbps": 30
             },
             "eth0": {
-              "peak_traffic_mbps": 0
+              "peak_traffic_mbps": 40
             }
           }
         }
