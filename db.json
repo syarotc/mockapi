@@ -151,6 +151,17 @@
         "serial_number": "Vec2da2859afae39958eaf581fa07c4cf",
         "status": "paired",
         "version": "6.5.1-5-28"
+      },
+            {
+        "ip_address": "10.253.255.153",
+        "last_seen": "2021-05-16T19:36:14Z",
+        "location": "None",
+        "luid": "w80avjcq",
+        "name": "vSensorCPG1-2-37w",
+        "product_name": "vSensor",
+        "serial_number": "Afae39958eaf581fa07c4cf",
+        "status": "paired",
+        "version": "6.5.1-5-28"
       }
     ]
   }
