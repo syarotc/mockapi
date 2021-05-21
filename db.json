@@ -1,11 +1,11 @@
 {
   "cpu": {
     "cpu": {
-      "idle_percent": 50.0,
-      "nice_percent": 5.0,
-      "system_percent": 10,
+      "idle_percent": 35.0,
+      "nice_percent": 15.0,
+      "system_percent": 25.0,
       "updated_at": "2021-05-16 19:40:01+00:00",
-      "user_percent": 20
+      "user_percent": 20.0
     }
   },
   "disk": {
@@ -85,7 +85,7 @@
             "aggregated_peak_traffic_mbps": 10,
             "interface_peak_traffic": {
               "eth0": {
-                "peak_traffic_mbps": 20
+                "peak_traffic_mbps": 40
               }
             }
           },
@@ -93,7 +93,7 @@
             "aggregated_peak_traffic_mbps": 20,
             "interface_peak_traffic": {
               "eth0": {
-                "peak_traffic_mbps": 10
+                "peak_traffic_mbps": 40
               }
             }
           },
@@ -101,7 +101,7 @@
             "aggregated_peak_traffic_mbps": 30,
             "interface_peak_traffic": {
               "eth0": {
-                "peak_traffic_mbps": 10
+                "peak_traffic_mbps": 40
               }
             }
           }
@@ -110,16 +110,16 @@
           "aggregated_peak_traffic_mbps": 100,
           "interface_peak_traffic": {
             "eth1": {
-              "peak_traffic_mbps": 20
+              "peak_traffic_mbps": 40
             },
             "eth3": {
-              "peak_traffic_mbps": 10
+              "peak_traffic_mbps": 40
             },
             "eth2": {
               "peak_traffic_mbps": 40
             },
             "eth0": {
-              "peak_traffic_mbps": 30
+              "peak_traffic_mbps": 40
             }
           }
         }
