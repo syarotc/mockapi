@@ -1,11 +1,11 @@
 {
   "cpu": {
     "cpu": {
-      "idle_percent": 35.0,
-      "nice_percent": 15.0,
-      "system_percent": 25.0,
+      "idle_percent": 10.0,
+      "nice_percent": 10.0,
+      "system_percent": 10.0,
       "updated_at": "2021-05-16 19:40:01+00:00",
-      "user_percent": 20.0
+      "user_percent": 10.0
     }
   },
   "disk": {
