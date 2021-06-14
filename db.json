@@ -1,11 +1,11 @@
 {
   "cpu": {
     "cpu": {
-      "idle_percent": 20.0,
-      "nice_percent": 12.0,
-      "system_percent": 35.0,
+      "idle_percent": 10.0,
+      "nice_percent": 5.0,
+      "system_percent": 15.0,
       "updated_at": "2021-05-16 19:40:01+00:00",
-      "user_percent": 5.0
+      "user_percent": 10.0
     }
   },
   "disk": {
@@ -21,10 +21,10 @@
         "status": "SKIP"
       },
       "disk_utilization": {
-        "free_bytes": 136122630144,
-        "total_bytes": 156067389440,
-        "usage_percent": 12.78,
-        "used_bytes": 19944759296
+        "free_bytes": 106122630144,
+        "total_bytes": 126067389440,
+        "usage_percent": 25,
+        "used_bytes": 15944759296
       },
       "raid_disks_missing": {
         "error": "",
