@@ -1,11 +1,11 @@
 {
   "cpu": {
     "cpu": {
-      "idle_percent": 15.0,
-      "nice_percent": 10.0,
-      "system_percent": 20.0,
+      "idle_percent": 20.0,
+      "nice_percent": 15.0,
+      "system_percent": 25.0,
       "updated_at": "2021-05-16 19:40:01+00:00",
-      "user_percent": 17.0
+      "user_percent": 27.0
     }
   },
   "disk": {
@@ -21,10 +21,10 @@
         "status": "SKIP"
       },
       "disk_utilization": {
-        "free_bytes": 116122630144,
+        "free_bytes": 126122630144,
         "total_bytes": 196067389440,
         "usage_percent": 35,
-        "used_bytes": 19944759296
+        "used_bytes": 18944759296
       },
       "raid_disks_missing": {
         "error": "",
@@ -82,26 +82,26 @@
       "traffic": {
         "sensors": {
           "Vec2da2859afae39958eaf581fa07c4cf": {
-            "aggregated_peak_traffic_mbps": 11,
+            "aggregated_peak_traffic_mbps": 17,
             "interface_peak_traffic": {
               "eth0": {
-                "peak_traffic_mbps": 15
+                "peak_traffic_mbps": 17
               }
             }
           },
           "vSensorCPG1-2-37w": {
-            "aggregated_peak_traffic_mbps": 21,
+            "aggregated_peak_traffic_mbps": 30,
             "interface_peak_traffic": {
               "eth0": {
-                "peak_traffic_mbps": 25
+                "peak_traffic_mbps": 30
               }
             }
           },
           "vSensor-sandy-w": {
-            "aggregated_peak_traffic_mbps": 35,
+            "aggregated_peak_traffic_mbps": 40,
             "interface_peak_traffic": {
               "eth0": {
-                "peak_traffic_mbps": 35
+                "peak_traffic_mbps": 40
               }
             }
           }
@@ -110,16 +110,16 @@
           "aggregated_peak_traffic_mbps": 100,
           "interface_peak_traffic": {
             "eth1": {
-              "peak_traffic_mbps": 15
+              "peak_traffic_mbps": 20
             },
             "eth3": {
-              "peak_traffic_mbps": 25
-            },
-            "eth2": {
               "peak_traffic_mbps": 35
             },
+            "eth2": {
+              "peak_traffic_mbps": 27
+            },
             "eth0": {
-              "peak_traffic_mbps": 45
+              "peak_traffic_mbps": 24
             }
           }
         }
