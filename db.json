@@ -62,19 +62,19 @@
         },
         "brain": {
           "eth1": {
-            "link": "DOWN",
+            "link": "UP",
             "link_stable": true
           },
           "eth3": {
-            "link": "DOWN",
+            "link": "UP",
             "link_stable": true
           },
           "eth2": {
-            "link": "DOWN",
+            "link": "UP",
             "link_stable": true
           },
           "eth0": {
-            "link": "DOWN",
+            "link": "UP",
             "link_stable": true
           }
         }
