@@ -23,7 +23,7 @@
       "disk_utilization": {
         "free_bytes": 126122630144,
         "total_bytes": 196067389440,
-        "usage_percent": 35,
+        "usage_percent": 91,
         "used_bytes": 18944759296
       },
       "raid_disks_missing": {
