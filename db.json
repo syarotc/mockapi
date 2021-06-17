@@ -51,7 +51,7 @@
           },
           "w80avjcq": {
             "eth0": {
-              "link": "DOWN"
+              "link": "UP"
             }
           },
           "v5o64ddw": {
@@ -66,7 +66,7 @@
             "link_stable": true
           },
           "eth3": {
-            "link": "DOWN",
+            "link": "UP",
             "link_stable": true
           },
           "eth2": {
